@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-    <link rel="stylesheet" href="css/common.css">
-    <script src="components/header.js" type="text/javascript" defer></script>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.15.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <!-- 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Firebase Hosting</title>
+  <link rel="stylesheet" href="css/common.css">
+  <script src="components/header.ts" type="text/javascript" defer></script>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/9.15.0/firebase-app-compat.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <!-- 
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-  </head>
-  <body>
-    <link href="components/header.html" rel="import" />
-    <!-- <header-component></header-component> --> 
-    <div>
-      <a href="./index.html" >General</a>
-      <a href="./pages/gettingThere.html" >Getting There</a>
-      <a href="./pages/participants.html" >Participants</a>
-      <a href="./pages/register.html" >Register</a>
-      <a href="./pages/schedule.html" >Schedule</a>
-      <a href="./pages/contact.html" >Contackt us</a>
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+
+<body>
+  <link href="components/header.html" rel="import" />
+  <!-- <header-component></header-component> -->
+  <header-component pathToPublic="./"></header-component>
+
+  <div>
+    <h1>Euro meeting 2023</h1>
+
+    General
+    RT35 Oslo invites you to the 2023 euro/number-meeting held in Oslo, the capital of Norway.
+
+    In the beginning of June the sun is bright and the party never stops.. so come and experience an unforgettable
+    weekend with your old and new roundtable friends from all across Europe.
+    <ul>
+      <li>RT35 Oslo was established in 1968 </li>
+      <li>The last euro meeting for 35/135/235 was in 2022 – a terrific weekend in Amberg with new and old friends</li>
+      <li>Our club in Oslo is one of two Oslo-clubs and very strong at the moment, counting 22 members and with 3
+        prospects. We cannot wait to welcome you in Oslo!</li>
+    </ul>
   </div>
-    
-    <div>
-      <h1>Norwegian Experience</h1>
 
-      General
-RT35 Oslo invites you to the 2023 euro/number-meeting held in Oslo, the capital of Norway.
+</body>
 
-In the beginning of June the sun is bright and the party never stops.. so come and experience an unforgettable weekend with your old and new roundtable friends from all across Europe.
-<ul>
-  <li>RT35 Oslo was established in 1968 </li>
-  <li>The last euro meeting for 35/135/235 was in 2022 – a terrific weekend in Amberg with new and old friends</li>
-  <li>Our club in Oslo is one of two Oslo-clubs and very strong at the moment, counting 22 members and with 3 prospects. We cannot wait to welcome you in Oslo!</li>
-</ul>
-    </div>
-
-  </body>
 </html>
-
-<
