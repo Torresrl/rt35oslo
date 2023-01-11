@@ -11,7 +11,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
         
         <div class="header">
-            <a href="#default" class="logo">RT35 Oslo</a>
+            <a href="${pathToPublic}index.html" class="logo">RT35 Oslo</a>
             <div class="header-right">
                 <a href="${pathToPublic}index.html" >General</a>
                 <a href="${pathToPublic}pages/gettingThere.html" >Getting There</a>
