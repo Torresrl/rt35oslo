@@ -15,6 +15,7 @@ class Header extends HTMLElement {
             <div class="header-right">
                 <a href="${pathToPublic}index.html" >General</a>
                 <a href="${pathToPublic}pages/gettingThere.html" >Getting There</a>
+                <a href="${pathToPublic}pages/accomodation.html" >Accomodation</a>
                 <a href="${pathToPublic}pages/participants.html" >Participants</a>
                 <a href="${pathToPublic}pages/register.html" >Register</a>
                 <a href="${pathToPublic}pages/schedule.html" >Schedule</a>
