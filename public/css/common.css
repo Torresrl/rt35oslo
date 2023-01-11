@@ -40,6 +40,12 @@ body {
     float: right;
 }
 
+.background-image {
+    background-image: url('../images/barcode.jpg');
+    height: max-content;
+    width: max-content;
+}
+
 @media screen and (max-width: 500px) {
     .header a {
         float: none;
