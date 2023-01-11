@@ -1,0 +1,8 @@
+.background-image {
+    background-image: url('../images/barcode.jpg');
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+    padding: 0;
+    
+}

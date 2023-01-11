@@ -1,0 +1,8 @@
+.background-image {
+    background-image: url('../images/gardemoen.webp');
+    background-size: cover;
+    height: 50vh;
+    overflow: auto;
+    padding: 0;
+    
+}
