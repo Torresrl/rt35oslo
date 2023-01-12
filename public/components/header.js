@@ -12,6 +12,10 @@ class Header extends HTMLElement {
         
         <div class="header">
             <a href="${pathToPublic}index.html" class="logo">RT35 Oslo</a>
+            
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
             <div class="header-right">
                 <a href="${pathToPublic}index.html" >General</a>
                 <a href="${pathToPublic}pages/gettingThere.html" >Getting There</a>
