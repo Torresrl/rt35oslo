@@ -116,10 +116,10 @@ body {
         text-align: right;
         align-items: flex-start; 
         flex-direction: column;
-        width: 50%;
+        width: 100%;
     }
 
-    .header h1 {
+    .logo{
         float: left;
     }
 
@@ -130,6 +130,10 @@ body {
 
     .side-menu:checked~.header-right {
         background-color: black;
+    }
+
+    .side-menu:checked~.logo {
+        display: none;
     }
 
 
