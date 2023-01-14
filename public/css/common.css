@@ -48,7 +48,7 @@ body {
 .hamb {
     cursor: pointer;
     float: right;
-    padding: 30px 20px;
+    padding: 26px 20px;
     z-index: 2;
 }
 
@@ -118,7 +118,7 @@ body {
     }
 
     .header-right {
-        padding-top: 50px;
+        padding-top: 46px;
         padding-left: 20px;
         display: flex;
         align-items: flex-start; 
