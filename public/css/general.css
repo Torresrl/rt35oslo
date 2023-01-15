@@ -4,5 +4,24 @@
     height: 100vh;
     overflow: auto;
     padding: 0;
-    
+    display: grid;
+    grid-template-rows:  1fr 1fr
+}
+
+.registration {
+    color: white;
+    grid-row-start: 2;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.registration p {
+    font-size: 1.25em;
+}
+
+#regisration-link {
+    color: inherit;
 }
