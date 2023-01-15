@@ -4,5 +4,56 @@
     height: 50vh;
     overflow: auto;
     padding: 0;
-    
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 50px auto;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    border: none;
+    text-align: left;
+    padding: 12px;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+th {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+td {
+    padding-top: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+#participantsTable {
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 684px) {
+    #participantsTable td:nth-child(5) {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 555px) {
+    #participantsTable td:nth-child(4) {
+        display: none;
+    }
 }

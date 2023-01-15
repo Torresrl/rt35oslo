@@ -9,9 +9,11 @@ class ParticipantsList extends HTMLElement {
 
         this.innerHTML = `
         <table id="participantsTable">
-            <td>Club</td>
-            <td>Country</td>
-            <td>Name</td>
+            <td><b>Club</b></td>
+            <td><b>Country<b></td>
+            <td><b>Name<b></td>
+            <td><b>Hotel<b></td>
+            <td><b>Length of stay<b></td>
         </table>
         `
 
