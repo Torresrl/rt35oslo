@@ -34,13 +34,19 @@ class ParticipantsList extends HTMLElement {
 
                 for (let i = 0; i < dataSheet.length; i++) {
                     let row = tabel.insertRow()
+
                     let clubCell = row.insertCell(0)
                     let contryCell = row.insertCell(1)
                     let nameCell = row.insertCell(2)
+                    let hotelCell = row.insertCell(3)
+                    let stayCell = row.insertCell(4)
 
                     clubCell.innerHTML = dataSheet[i]['c'][3]['f']
                     contryCell.innerHTML = dataSheet[i]['c'][4]['v']
                     nameCell.innerHTML = dataSheet[i]['c'][2]['v']
+                    hotelCell.innerHTML = dataSheet[i]['c'][7] !== null ? dataSheet[i]['c'][7]['v'] : 'Not registered'
+                    stayCell.innerHTML = dataSheet[i]['c'][5]['v']
+
                 }
             })
     }
