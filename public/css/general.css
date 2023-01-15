@@ -18,10 +18,30 @@
     text-align: center;
 }
 
-.registration p {
-    font-size: 1.25em;
-}
-
 #regisration-link {
     color: inherit;
+}
+
+@media screen and (min-width: 551px) {
+    .registration p {
+        font-size: 1.25em;
+    }
+ 
+}
+@media screen and (max-width: 550px) and (min-width: 300px){
+    .registration h1 {
+        font-size: 1.2em;
+    }
+    .registration p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .registration h1 {
+        font-size: 1em;
+    }
+    .registration p {
+        font-size: 0.8em;
+    }
 }
