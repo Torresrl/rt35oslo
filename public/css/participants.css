@@ -1,6 +1,7 @@
 .background-image {
-    background-image: url('../images/dummy-img.jpg');
+    background-image: url('../images/julebord.jpeg');
     background-size: cover;
+    background-position: center;
     height: 50vh;
     overflow: auto;
     padding: 0;

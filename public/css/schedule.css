@@ -1,6 +1,7 @@
 .background-image {
     background-image: url('../images/oslo-night.jpg');
     background-size: cover;
+    background-position: center;
     height: 50vh;
     overflow: auto;
     padding: 0;
