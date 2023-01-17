@@ -17,7 +17,7 @@ class Header extends HTMLElement {
             <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
 
             <div class="header-right">
-                <a href="${pathToPublic}index.html" >General</a>
+                <a href="${pathToPublic}index.html" >Home</a>
                 <a href="${pathToPublic}pages/gettingThere.html" >Getting There</a>
                 <a href="${pathToPublic}pages/accomodation.html" >Accomodation</a>
                 <a href="${pathToPublic}pages/participants.html" >Participants</a>
