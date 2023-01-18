@@ -8,6 +8,55 @@
 
 }
 
-.name {
+/* CSS */
+.title {
+    font-size: 24px;
     font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.person-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.person img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.position {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.email {
+    font-size: 14px;
+    color: gray;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: gray;
+    margin-top: 24px;
 }

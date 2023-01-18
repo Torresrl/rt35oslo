@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/register.css">
     <link rel="icon" href="../images/rt35.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <script src="../components/header.js" type="text/javascript" defer></script>
 
 </header>
@@ -16,27 +19,37 @@
     </div>
 
     <div class="content">
-
-        <h1>Register</h1>
-
-
-        <p>Click <a id=regisration-link href="https://forms.gle/5D5fzUzffranAWD79">her</a> for registration </p>
-
-        <h3>Banking Details</h3>
-        <p> The meeting costs 300 Euro. Transfear the amount before: TBA to bank detiales mention futher down. 
-            We would appriciate if everyine write there [name] -- Euromeeting 2023 in the bank transfer message.</p>
-
-        <h4>Internation transfear</h4>
-        <p>
-            BIC (SWIFT): DNBANOKKXXX <br>
-            The bank's address: DNB Bank ASA, Postbox 1600 Sentrum, 0021 Oslo <br>
-            Electronically IBAN-kontonummer: NO3415036595369 <br>
-            Paiperformat IBAN-kontonummer: NO34 1503 6595 369 <br>
-        </p>
-         
-        <h4>Domestic transfear</h4>
-        <p>Account number: 1503.65.95369</p>
-    </div>
+        <h1 class="text-center">Register</h1>
+      
+        <div class="form-container">
+          <p class="text-center">
+            Click <a id="registration-link" href="https://forms.gle/5D5fzUzffranAWD79">here</a> to register
+          </p>
+        </div>
+      
+        <div class="payment-container">
+          <h3 class="text-center">Banking Details</h3>
+          <p class="text-center">
+            The meeting costs 300 Euro. Transfer the amount before: TBA to bank details mentioned below.
+            We would appreciate if everyone writes their name and "Euromeeting 2023" in the bank transfer message.
+          </p>
+      
+          <div class="transfer-container">
+            <h4>International Transfer</h4>
+            <p>
+              BIC (SWIFT): DNBANOKKXXX <br>
+              The bank's address: DNB Bank ASA, Postbox 1600 Sentrum, 0021 Oslo <br>
+              Electronically IBAN-kontonummer: NO3415036595369 <br>
+              Paper format IBAN-kontonummer: NO34 1503 6595 369 <br>
+            </p>
+          </div>
+      
+          <div class="transfer-container">
+            <h4>Domestic Transfer</h4>
+            <p>Account number: 1503.65.95369</p>
+          </div>
+        </div>
+      </div>
 
 </body>
 
