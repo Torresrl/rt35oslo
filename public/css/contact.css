@@ -20,6 +20,13 @@
     justify-content: space-between;
 }
 
+
+@media screen and (max-width: 953px) {
+    .person-container {
+        flex-direction:  column;
+    }
+}
+
 .person {
     display: flex;
     align-items: center;
