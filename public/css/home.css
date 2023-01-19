@@ -10,7 +10,7 @@
 
 /* add this to your css file */
 .registration-container {
-    padding: 3em;
+    padding-top: 3em;
     text-align: center;
     position: absolute;
     color: white;
@@ -122,7 +122,6 @@
 
 @media screen and (min-width: 737px) and  (max-width: 953px) {
 
-
     .title {
         font-size: 2em;
     }
@@ -133,9 +132,21 @@
 
 }
 
-@media screen and (max-width: 736px) and (min-width: 300px) {
+@media screen and (max-width: 736px) and (min-width: 577px) {
+
+
     .title {
-        font-size: 1.3em;
+        font-size: 1.8em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width: 300px) {
+    .title {
+        font-size: 1.8em;
     }
 
     .subtitle {
