@@ -68,8 +68,6 @@ class ParticipantsList extends HTMLElement {
             }
         }
 
-        // for testing: open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
-
         fetch(url)
             .then(res => res.text())
             .then(rep => {
@@ -91,7 +89,7 @@ class ParticipantsList extends HTMLElement {
                     const hotelCell = row.insertCell(3)
                     const stayCell = row.insertCell(4)
 
-                    const clubValue = dataSheet[i]['c'][3]['f']
+                    const clubValue = dataSheet[i]['c'][3]['f'] === undefined ? dataSheet[i]['c'][3]['v'] :  dataSheet[i]['c'][3]['f']
                     const countryValue = dataSheet[i]['c'][4]['v']
                     const nameValue = dataSheet[i]['c'][2]['v']
                     const hotelValue = dataSheet[i]['c'][7] !== null ? dataSheet[i]['c'][7]['v'] : 'Not registered'
