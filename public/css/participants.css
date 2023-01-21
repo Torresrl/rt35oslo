@@ -34,6 +34,12 @@ td {
     padding-top: 10px;
 }
 
+#hotelTable td:first-child, 
+#lengthOfStayTable td:first-child, 
+#countryTable td:first-child {
+    width: 85%;
+}
+
 tr:nth-child(even) {
     background-color: #f9f9f9;
 }
