@@ -1,16 +1,19 @@
 class Footer extends HTMLElement {
 
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
 
-    connectedCallback() {
-        const pathToPublic = this.getAttribute('pathToPublic')
+  connectedCallback() {
+    const pathToPublic = this.getAttribute('pathToPublic')
 
-        this.innerHTML = `
+    this.innerHTML = `
         <footer>
             <div class="footer-container">
+            <div class="footer-copyright">
+            Copyright © 2023 RT 35 Oslo
+          </div>
               <div class="footer-links">
                 <a href="${pathToPublic}index.html" >Home</a>
                 <a href="${pathToPublic}pages/gettingThere.html" >Getting There</a>
@@ -20,12 +23,9 @@ class Footer extends HTMLElement {
                 <a href="${pathToPublic}pages/schedule.html" >Schedule</a>
                 <a href="${pathToPublic}pages/contact.html" >Contackt us</a>
               </div>
-              <div class="footer-copyright">
-                Copyright © 2023 RT 35 Oslo
-              </div>
             </div>
           </footer>
         `
-    }
+  }
 }
 customElements.define('footer-component', Footer);
