@@ -95,8 +95,6 @@
 }
 
 .arrow-down {
-    border: solid white;
-    border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
     transform: rotate(45deg);
@@ -110,6 +108,12 @@
 
 
 @media screen and (min-width: 954px) {
+
+    .arrow-down {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+    }
+    
     .title {
         font-size: 3em;
     }
@@ -122,6 +126,11 @@
 
 @media screen and (min-width: 737px) and  (max-width: 953px) {
 
+    .arrow-down {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+    }
+
     .title {
         font-size: 2em;
     }
@@ -132,35 +141,36 @@
 
 }
 
-@media screen and (max-width: 736px) and (min-width: 577px) {
-
-
+@media screen and (max-width: 736px) and (min-width:  300px) {
+    
     .title {
         font-size: 1.8em;
+        padding-bottom: 1.6em;
     }
 
     .subtitle {
-        font-size: 1em;
-    }
-}
-
-@media screen and (max-width: 576px) and (min-width: 300px) {
-    .title {
-        font-size: 1.8em;
+        display: none;
     }
 
-    .subtitle {
-        font-size: 1em;
+    .arrow-down {
+        border: solid #ffa600;
+        border-width: 0 3px 3px 0;
     }
 }
 
 @media screen and (max-width: 299px) {
     .title {
         font-size: 1em;
+        padding-bottom: 0.8em;
     }
 
     .subtitle {
-        font-size: 0.6em;
+        display: none;
+    }
+
+    .arrow-down {
+        border: solid #ffa600;
+        border-width: 0 3px 3px 0;
     }
 }
 
