@@ -4,5 +4,28 @@
     height: 50vh;
     overflow: auto;
     padding: 0;
-    
+
+}
+
+
+.title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.description a {
+    color: #337AB7;
+    text-decoration: none;
+}
+
+.description a {
+    color: #337AB7;
+    text-decoration: none;
 }
