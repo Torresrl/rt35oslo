@@ -22,7 +22,7 @@ class Footer extends HTMLElement {
                 <a href="${pathToPublic}pages/register.html" >Register</a>
                 <a href="${pathToPublic}pages/schedule.html" >Schedule</a>
                 <a href="${pathToPublic}pages/contact.html" >Contact us</a>
-                <a href="${pathToPublic}pages/faq.html" >Faq</a>
+                <a href="${pathToPublic}pages/faq.html" >FAQ</a>
               </div>
             </div>
           </footer>
