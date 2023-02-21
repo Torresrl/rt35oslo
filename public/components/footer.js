@@ -16,7 +16,7 @@ class Footer extends HTMLElement {
           </div>
               <div class="footer-links">
                 <a href="${pathToPublic}index.html" >Home</a>
-                <a href="${pathToPublic}pages/gettingThere.html" >Getting There</a>
+                <a href="${pathToPublic}pages/gettingThere.html" >Transport</a>
                 <a href="${pathToPublic}pages/accomodation.html" >Accomodation</a>
                 <a href="${pathToPublic}pages/participants.html" >Participants</a>
                 <a href="${pathToPublic}pages/register.html" >Register</a>
