@@ -80,7 +80,7 @@ class ParticipantsList extends HTMLElement {
                 const hotelData = {}
                 const stayData = {}
 
-                for (let i = 0; i < dataSheet.length; i++) {
+                for (let i = dataSheet.length - 1; i >= 0; i--) {
                     const row = tabel.insertRow()
 
                     const clubCell = row.insertCell(0)
